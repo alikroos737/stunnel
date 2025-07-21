@@ -11,12 +11,12 @@ foreground = yes
 debug = 7
 
 [http]
-accept = 8880
-connect = 127.0.0.1:80
+accept = 443
+connect = 127.0.0.1:1080
 
 [https]
-accept = 8444
-connect = 127.0.0.1:443
+accept = 800
+connect = 127.0.0.1:1080
 EOF
 
 # اجازه بده stunnel اجرا بشه
